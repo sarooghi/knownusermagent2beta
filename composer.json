@@ -1,0 +1,21 @@
+
+{
+    "name": "Queueit/KnownUser",
+      "minimum-stability": "dev",
+
+            "type": "magento2-module",
+        "version": "1.0.0",
+       "extra": {
+        "map": [
+            [
+                "*",
+                "Queueit/KnownUser"
+            ]
+        ]
+    },
+        "require": {
+            "magento/magento-composer-installer": "*",
+	    "queueit/knownuserv3":*
+
+        }
+}   
